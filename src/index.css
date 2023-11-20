@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(180deg, #7c2275 0%, #342f6f 52%, #23148f 100%);
+  height:100vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/13/57/drum-set-1839383_1280.jpg");
+    background-size: cover;
+    opacity: 0.5;
+  }
+
+.app-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(0deg, #396b88 1%, #48b8c7 45%, #90fe9d 100%);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+  font-weight: 800;
+  font-size: x-large;
+}
+
+main{
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/19/13/57/drum-set-1839383_1280.jpg");
+  background-size: cover; 
+  background-color: rgb(79, 66, 139); 
+  background-blend-mode: overlay;
+  }
+
+.main {
+  max-height: 670px;
+  overflow-y: auto;
+}
+
+.main .card {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: #79d6e2;
+  text-align: center;
+  color: rgb(255, 252, 55);
+  padding: 13px;
+  height: 50px;
+  background: linear-gradient(0deg, #4c1a6e 1%, #392486 45%, #0f486e 100%);
+}
+
+@media only screen and (max-width: 600px) {
+}
