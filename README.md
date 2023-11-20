@@ -1,6 +1,5 @@
- HEAD
 # PruebaReact
-prueba react
+LINK: https://www.youtube.com/watch?v=wfNw5OI0LXc
 
 # React + Vite
 
